@@ -1,18 +1,18 @@
-# svg icon wrapper
+# svg wrapper
 conveninece template wrapper for SVGs
 
 ## Install
 Simple install the package via atmosphere
 
 ```sh
-meteor add pushplaybang:svg-icon-wrapper
+meteor add pushplaybang:svg-wrapper
 ```
 
 
 
 ## Usage
 
-This package includes a simple blaze template called `icon` that provides a configurable svg wrapper, for embedding svgs in your html templates, without loosing modularity. include it like this:
+This package includes a simple blaze template called `svgWrap` that provides a configurable svg wrapper, for embedding svgs in your html templates, without loosing modularity. include it like this:
 
 ```html
 {{> svgWrap inner="hamburger" fill="#fff" }}
@@ -21,7 +21,7 @@ This package includes a simple blaze template called `icon` that provides a conf
 ## options
 These are all optional paramaters for the template, 
 
-* inner  (no default)
+* inner (no default)
 * class (defaults to an empty string)
 * width (defaults to 24)
 * height (defaults to 24)

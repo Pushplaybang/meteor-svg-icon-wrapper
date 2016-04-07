@@ -1,8 +1,8 @@
 Package.describe({
-  name: 'pushplaybang:svg-icon-wrapper',
+  name: 'pushplaybang:svg-wrapper',
   version: '0.0.1',
   summary: 'conveninece template wrapper for SVGs',
-  git: '',
+  git: 'https://github.com/Pushplaybang/meteor-svg-icon-wrapper',
   documentation: 'README.md'
 });
 
